@@ -9,8 +9,6 @@ def show_text(text, x, y, text_color = (255, 255, 255), text_size = 40, font_nam
         image = f.render(text, True, text_color)
         window.blit(image,(x, y))  
 
-
-
 class GameSprite(sprite.Sprite):
     def __init__ (self, image_name, x, y, speed, image_scale = 1):
         super().__init__()
